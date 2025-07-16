@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# === FRONTEND (React) ===
+
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +23,32 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# === BACKEND (Python FastAPI) ===
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Data / models (optional: if you plan to store them externally)
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Cache
+.cache/
