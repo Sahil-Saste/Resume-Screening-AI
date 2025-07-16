@@ -1,3 +1,11 @@
-flask
-flask-cors
-pymupdf 
+fastapi
+uvicorn
+python-multipart
+pymupdf
+sentence-transformers
+scikit-learn
+pandas
+# If you use fuzzy matching in the future, add: rapidfuzz
+# If you use spaCy in the future, add: spacy
+# For compatibility, pin numpy to <2.0
+numpy<2.0 
