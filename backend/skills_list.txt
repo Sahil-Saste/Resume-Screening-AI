@@ -1,0 +1,123 @@
+Python
+Java
+C
+C++
+C#
+JavaScript
+TypeScript
+Go
+Rust
+Kotlin
+Swift
+PHP
+Ruby
+HTML
+CSS
+Bootstrap
+Tailwind CSS
+React.js
+Angular
+Vue.js
+Next.js
+Node.js
+Express.js
+REST API
+GraphQL
+jQuery
+SASS
+SQL
+MySQL
+PostgreSQL
+SQLite
+MongoDB
+Firebase
+Redis
+Oracle Database
+Elasticsearch
+Data Analysis
+Data Visualization
+Machine Learning
+Deep Learning
+Artificial Intelligence
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+TensorFlow
+Keras
+OpenCV
+NLP
+Natural Language Processing
+Computer Vision
+Data Preprocessing
+EDA
+Big Data
+Apache Spark
+Hadoop
+Power BI
+Tableau
+Excel
+Google Sheets
+AWS
+Azure
+Google Cloud Platform
+Heroku
+Netlify
+Docker
+Kubernetes
+CI/CD
+GitHub Actions
+Terraform
+Jenkins
+Git
+GitHub
+GitLab
+VS Code
+Jupyter Notebook
+Google Colab
+Eclipse
+IntelliJ IDEA
+Android Studio
+Postman
+Figma
+Flask
+Django
+FastAPI
+Spring Boot
+PyTorch
+BeautifulSoup
+Selenium
+NLTK
+Streamlit
+Plotly
+Dash
+Android
+iOS
+React Native
+Flutter
+SwiftUI
+Unit Testing
+PyTest
+Jest
+Cypress
+Test Automation
+Manual Testing
+Problem Solving
+Teamwork
+Time Management
+Communication
+Leadership
+Project Management
+Agile
+Scrum
+Analytical Thinking
+Attention to Detail
+Creativity
+Cybersecurity
+Blockchain
+Unity
+Unreal Engine
+Solidity
+Ethical Hacking
+API Integration 

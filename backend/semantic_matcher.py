@@ -8,4 +8,4 @@ def calculate_semantic_similarity(resume_text, jd_text):
     jd_embedding = model.encode(jd_text, convert_to_tensor=True)
     
     similarity_score = util.cos_sim(resume_embedding, jd_embedding).item()
-    return round(similarity_score * 100)  # Convert to percent
+    return round(similarity_score * 100)  # Convert to percent 

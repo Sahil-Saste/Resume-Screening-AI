@@ -29,22 +29,22 @@ try:
 except Exception as e:
     print(f'Error reading O*NET file: {e}')
 
-# # Read ESCO Skills CSV
-# esco_file = 'ESCO_Skills.csv'
-# esco_skills = set()
-# try:
-#     with open(esco_file, encoding='utf-8') as f:
-#         reader = csv.DictReader(f)
-#         # Try common column names for skill label
-#         for row in reader:
-#             label = row.get('preferredLabel') or row.get('Skill/competence') or row.get('label')
-#             if label:
-#                 esco_skills.add(label.strip())
-# except Exception as e:
-#     print(f'Error reading ESCO file: {e}')
+# Read ESCO Skills CSV
+esco_file = 'ESCO_Skills.csv'
+esco_skills = set()
+try:
+    with open(esco_file, encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        # Try common column names for skill label
+        for row in reader:
+            label = row.get('preferredLabel') or row.get('Skill/competence') or row.get('label')
+            if label:
+                esco_skills.add(label.strip())
+except Exception as e:
+    print(f'Error reading ESCO file: {e}')
 
 # Combine and deduplicate
-all_skills = sorted(onet_skills )
+all_skills = sorted(onet_skills | esco_skills)
 
 # Write to skills_list.txt
 with open('skills_list.txt', 'w', encoding='utf-8') as f:
