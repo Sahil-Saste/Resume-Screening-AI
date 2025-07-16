@@ -21,6 +21,8 @@ app.add_middleware(
 with open("skills_list.txt", "r", encoding="utf-8") as f:
     all_skills = [line.strip() for line in f.readlines() if line.strip() != ""]
 
+  
+
 @app.post("/analyze")
 async def analyze_resume(
     file: UploadFile = File(...),
